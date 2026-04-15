@@ -5,6 +5,8 @@ import App from './App.jsx'
 
 import '@fontsource-variable/open-sans/wght.css'; // Supports weights 300-800
 
+import * as bootstrap from 'bootstrap'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
