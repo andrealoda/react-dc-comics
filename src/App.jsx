@@ -1,6 +1,7 @@
 
 import AppHeader from "./components/AppHeader"
 import AppMain from "./components/AppMain"
+import UtilityBar from "./components/UtilityBar"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
 
       <AppHeader />
       <AppMain />
+      <UtilityBar />
 
     </>
   )
