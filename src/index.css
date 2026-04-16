@@ -63,3 +63,31 @@ main {
     }
 
 }
+
+.utilityBar {
+    background-color: #0282F9;
+
+    .container {
+        color: white;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+
+
+        .link {
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+
+            img {
+                height: 50px;
+                margin-right: 1rem;
+            }
+
+            span {
+                font-size: 8pt;
+            }
+
+        }
+    }
+}
