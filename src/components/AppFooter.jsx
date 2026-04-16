@@ -45,6 +45,8 @@ export default function AppFooter() {
                         <li>DC Power Visa</li>
                     </ul>
 
+                    {/* costruire con row row-cols-1 row-cols-sm-2... + cols + liste bootstrap */}
+
                 </div>
                 <div className="footerLogo">
                     <img src={logoBg} alt="" />
