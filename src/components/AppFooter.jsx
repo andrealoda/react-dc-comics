@@ -17,6 +17,37 @@ export default function AppFooter() {
                         <li>Videos</li>
                         <li>News</li>
                     </ul>
+                    <ul>
+                        <li className='title'>DC COMICS</li>
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
+                    </ul>
+                    <ul>
+                        <li className='title'>DC COMICS</li>
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
+                    </ul>
+                    <ul>
+                        <li className='title'>DC COMICS</li>
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
+                    </ul>
+
                 </div>
                 <div className="footerLogo">
                     <img src={logoBg} alt="" />

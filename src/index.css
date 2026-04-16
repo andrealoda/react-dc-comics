@@ -101,6 +101,8 @@ footer {
     .footerLink {
         color: white;
         padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
 
         li.title {
             color: white;
@@ -114,6 +116,34 @@ footer {
             text-align: left;
             padding-left: 0;
             font-size: small
+        }
+    }
+}
+
+.footer-cta {
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+
+        .cta-btn {
+            border: 2px solid #0282F9;
+            padding: 0.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            color: white;
+        }
+
+        .follow {
+            align-content: center;
+
+            img {
+                margin-left: 1rem;
+            }
         }
     }
 }
