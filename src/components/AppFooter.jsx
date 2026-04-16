@@ -18,34 +18,31 @@ export default function AppFooter() {
                         <li>News</li>
                     </ul>
                     <ul>
-                        <li className='title'>DC COMICS</li>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>TV</li>
-                        <li>Games</li>
-                        <li>Videos</li>
-                        <li>News</li>
+                        <li className='title'>SHOP</li>
+                        <li>Shop DC</li>
+                        <li>Shop DC Collectibles</li>
                     </ul>
                     <ul>
-                        <li className='title'>DC COMICS</li>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>TV</li>
-                        <li>Games</li>
-                        <li>Videos</li>
-                        <li>News</li>
+                        <li className='title'>DC</li>
+                        <li>Terms Of Use</li>
+                        <li>Privacy policy (New)</li>
+                        <li>Ad Choises</li>
+                        <li>Advertising</li>
+                        <li>Jobs</li>
+                        <li>Subscriptions</li>
+                        <li>Talent workshop</li>
+                        <li>CPSC Certificates</li>
+                        <li>Ratings</li>
+                        <li>Shop Help</li>
+                        <li>Contact Us</li>
                     </ul>
                     <ul>
-                        <li className='title'>DC COMICS</li>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>TV</li>
-                        <li>Games</li>
-                        <li>Videos</li>
-                        <li>News</li>
+                        <li className='title'>SITES</li>
+                        <li>DC</li>
+                        <li>MAD Magazine</li>
+                        <li>DC Kids</li>
+                        <li>DC Universe</li>
+                        <li>DC Power Visa</li>
                     </ul>
 
                 </div>
