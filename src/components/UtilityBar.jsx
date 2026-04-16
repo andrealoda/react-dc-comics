@@ -2,7 +2,7 @@ export default function UtilityBar() {
 
     return (
 
-        <section className="container">Utility Bar</section>
+        <div>Utility Bar</div>
 
     )
 }

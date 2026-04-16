@@ -2,7 +2,7 @@ export default function AppMain() {
 
     return (
 
-        <main>Main</main>
+        <main className="bg-black text-white">➡️ Content goes here ⬅️</main>
 
     )
 }
