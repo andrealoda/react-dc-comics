@@ -91,3 +91,29 @@ main {
         }
     }
 }
+
+footer {
+    background-image: url("./assets/img/footer-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+
+    .footerLink {
+        color: white;
+        padding: 2rem;
+
+        li.title {
+            color: white;
+            margin-bottom: 1rem;
+            font-size: large;
+        }
+
+        li {
+            list-style: none;
+            color: grey;
+            text-align: left;
+            padding-left: 0;
+            font-size: small
+        }
+    }
+}
