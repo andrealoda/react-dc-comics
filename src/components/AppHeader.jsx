@@ -1,5 +1,59 @@
 import headerLogo from '../assets/img/dc-logo.png'
 
+const menu = [
+    {
+        id: 1,
+        text: "CHARACTERS",
+        path: "/characters"
+    },
+    {
+        id: 2,
+        text: "COMICS",
+        path: "/comics"
+    },
+    {
+        id: 3,
+        text: "MOVIE",
+        path: "/movie"
+    },
+    {
+        id: 4,
+        text: "TV",
+        path: "/tv"
+    },
+    {
+        id: 5,
+        text: "GAMES",
+        path: "/games"
+    },
+    {
+        id: 6,
+        text: "COLLECTIBLES",
+        path: "/collectibles"
+    },
+    {
+        id: 7,
+        text: "VIDEO",
+        path: "/video"
+    },
+    {
+        id: 8,
+        text: "FANS",
+        path: "/fans"
+    },
+    {
+        id: 9,
+        text: "NEWS",
+        path: "/news"
+    },
+    {
+        id: 10,
+        text: "SHOP",
+        path: "/shop"
+    }
+
+]
+
 export default function AppHeader() {
 
     return (
@@ -10,7 +64,13 @@ export default function AppHeader() {
                     <img src={headerLogo} alt="" />
                 </div>
                 <nav>
-                    <a href="#">CHARACTERS</a>
+                    {menu.map((item) => (
+                        <a haref={item.path} key={item.id}>{item.text}</a>
+                    ))}
+
+
+
+                    {/* <a href="#">CHARACTERS</a>
                     <a href="#" className="text-primary border-bottom border-primary border-4">COMICS</a>
                     <a href="#">MOVIE</a>
                     <a href="#">TV</a>
@@ -19,7 +79,7 @@ export default function AppHeader() {
                     <a href="#">VIDEO</a>
                     <a href="#">FANS</a>
                     <a href="#">NEWS</a>
-                    <a href="#">SHOP</a>
+                    <a href="#">SHOP</a> */}
                 </nav>
             </div>
 
