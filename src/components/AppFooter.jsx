@@ -49,7 +49,7 @@ export default function AppFooter() {
 
                 </div>
                 <div className="footerLogo">
-                    <img src={logoBg} alt="" className="w-100 h-100 object-fit-cover object-fit-center" />
+                    <img src={logoBg} alt="" />
                 </div>
             </div>
         </footer >

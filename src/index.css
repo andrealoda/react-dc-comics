@@ -13,37 +13,13 @@ body {
 
 /* HEADER */
 
-header {
-    background-color: white;
-
-    .container {
-        height: 120px;
-        max-width: 1200px;
-    }
-
-    nav {
-        height: 100%;
-        display: flex;
-    }
-
-    nav>a {
-        text-decoration: none;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        color: black;
-        font-size: smaller;
-        font-weight: 600;
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
+header .container {
+    max-width: 1200px;
 }
 
 /* MAIN */
 
 main {
-
-
 
     .jumbotronHead {
         max-height: 500px;
@@ -53,15 +29,10 @@ main {
     .jumbotronHead img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        /* Fondamentale: copre l'area senza deformarsi */
-        object-position: top center;
-        /* Centra l'immagine, o usa 'top' se vuoi vedere le teste dei personaggi */
     }
 
     .container {
         max-width: 1200px;
-        min-height: 100px;
     }
 
     .comic-card {
@@ -97,6 +68,7 @@ main {
         color: white;
         max-width: 1200px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
 
         .link {
@@ -127,7 +99,7 @@ footer {
     .container {
         display: flex;
         justify-content: space-between;
-        width: 1200px;
+        max-width: 1200px;
     }
 
     .footerLink {
@@ -135,6 +107,11 @@ footer {
         padding: 2rem;
         display: flex;
         flex-wrap: wrap;
+
+        ul {
+            padding-left: 0;
+            padding-right: 2rem;
+        }
 
         li.title {
             color: white;
@@ -146,7 +123,6 @@ footer {
             list-style: none;
             color: grey;
             text-align: left;
-            padding-left: 0;
             font-size: small
         }
     }
@@ -165,14 +141,15 @@ footer {
 /* CALL TO ACTION */
 
 .footer-cta {
-    height: 150px;
+    min-height: 150px;
     display: flex;
     align-items: center;
 
     .container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        width: 1200px;
+        max-width: 1200px;
 
         .cta-btn {
             border: 2px solid #0282F9;

@@ -58,7 +58,7 @@ export default function AppHeader() {
 
     return (
 
-        <header>
+        <header className='bg-white'>
             <div className="container">
                 <nav className="navbar navbar-expand-lg bg-white">
                     <div className="container-fluid">

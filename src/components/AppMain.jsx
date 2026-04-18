@@ -16,8 +16,10 @@ export default function AppMain() {
 
                     {comics.map((item) => (
                         <div className="card comic-card m-1 bg-black" key={item.id}>
-                            <img src={item.thumb} alt="" className='thumb' />
-                            <span className="comics-text text-white mt-2">{item.title}</span>
+                            <a href="#" className="text-decoration-none">
+                                <img src={item.thumb} alt="" className='thumb' />
+                                <span className="comics-text text-white mt-2">{item.title}</span>
+                            </a>
                         </div>
                     ))}
 

@@ -13,7 +13,7 @@ export default function FooterCTA() {
                     <span>SING-UP NOW!</span>
                 </div>
                 <div className="follow">
-                    <span className="text-primary">FOLLOW US</span>
+                    <span className="text-primary ">FOLLOW US</span>
                     <img src={facebook} alt="" />
                     <img src={twitter} alt="" />
                     <img src={youtube} alt="" />
