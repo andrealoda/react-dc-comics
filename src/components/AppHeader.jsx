@@ -60,29 +60,27 @@ export default function AppHeader() {
 
         <header>
             <div className="container">
-                <div className="header-logo">
-                    <img src={headerLogo} alt="" />
-                </div>
-                <nav>
-                    {menu.map((item) => (
-                        <a href={item.path} key={item.id}>{item.text}</a>
-                    ))}
+                <nav className="navbar navbar-expand-lg bg-white">
+                    <div className="container-fluid">
+                        <a className="navbar-brand" href="#"><img src={headerLogo} alt="" /></a>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbarNav">
+                            <ul className="navbar-nav ms-auto">
+                                {menu.map((item) => (
+                                    <li className="nav-item p-2 text-dark" key={item.id}>
+                                        <a href={item.path} className="text-black text-decoration-none">{item.text}</a>
+                                    </li>
+                                ))}
 
 
-
-                    {/* <a href="#">CHARACTERS</a>
-                    <a href="#" className="text-primary border-bottom border-primary border-4">COMICS</a>
-                    <a href="#">MOVIE</a>
-                    <a href="#">TV</a>
-                    <a href="#">GAMES</a>
-                    <a href="#">COLLECTIBLES</a>
-                    <a href="#">VIDEO</a>
-                    <a href="#">FANS</a>
-                    <a href="#">NEWS</a>
-                    <a href="#">SHOP</a> */}
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
-        </header>
+        </header >
 
     )
 }
