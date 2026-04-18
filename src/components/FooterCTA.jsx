@@ -4,21 +4,58 @@ import youtube from '../assets/img/footer-youtube.png'
 import pinterest from '../assets/img/footer-pinterest.png'
 import periscope from '../assets/img/footer-periscope.png'
 
+const socialLink = [
+    {
+        id: 1,
+        text: "facebook",
+        path: "/facebook",
+        img: facebook
+    },
+    {
+        id: 2,
+        text: "twitter",
+        path: "/twitter",
+        img: twitter
+    },
+    {
+        id: 3,
+        text: "youtube",
+        path: "/youtube",
+        img: youtube
+    },
+    {
+        id: 4,
+        text: "pinterest",
+        path: "/pinterest",
+        img: pinterest
+    },
+    {
+        id: 5,
+        text: "periscope",
+        path: "/periscope",
+        img: periscope
+    }
+]
+
 export default function FooterCTA() {
 
     return (
         <section className="footer-cta">
             <div className="container">
                 <div className="cta-btn">
-                    <span>SING-UP NOW!</span>
+                    <a href="#" className='text-decoration-none text-white'>
+                        <span>SING-UP NOW!</span>
+                    </a>
                 </div>
                 <div className="follow">
                     <span className="text-primary ">FOLLOW US</span>
-                    <img src={facebook} alt="" />
-                    <img src={twitter} alt="" />
-                    <img src={youtube} alt="" />
-                    <img src={pinterest} alt="" />
-                    <img src={periscope} alt="" />
+
+
+                    {socialLink.map((item) => (
+                        <a href={item.path} key={item.id}>
+                            <img src={item.img} alt="" />
+                        </a>
+                    ))}
 
                 </div>
             </div>
