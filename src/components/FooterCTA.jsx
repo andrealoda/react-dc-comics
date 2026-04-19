@@ -42,13 +42,13 @@ export default function FooterCTA() {
     return (
         <section className="footer-cta">
             <div className="container">
-                <div className="cta-btn">
+                <div className="cta-btn mb-2">
                     <a href="#" className='text-decoration-none text-white'>
                         <span>SING-UP NOW!</span>
                     </a>
                 </div>
-                <div className="follow">
-                    <span className="text-primary ">FOLLOW US</span>
+                <div className="follow mb-2">
+                    <span className="text-primary">FOLLOW US</span>
 
 
                     {socialLink.map((item) => (
