@@ -55,7 +55,6 @@ const menu = [
 
 export default function AppHeader() {
 
-
     return (
 
         <header className='bg-white'>
