@@ -21,8 +21,8 @@ export default function AppFooter() {
                                 </li>
                             ))}
                         </ul>
-                    </div>
-                    <div className="col">
+                    {/* </div> */}
+                    {/* <div className="col"> */}
                         <h5 className='title'>SHOP</h5>
                         <ul>
                             {shop.map((item) => (

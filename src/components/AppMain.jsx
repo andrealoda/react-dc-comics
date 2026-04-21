@@ -1,5 +1,6 @@
 import jumbotronImg from '../assets/img/jumbotron.jpg'
 import comics from '../data/comics.js'
+import Card from './Card';
 
 export default function AppMain() {
 
@@ -18,12 +19,7 @@ export default function AppMain() {
                 <div className="jumbotron d-flex flex-wrap justify-content-center gap-5 mt-5">
 
                     {comics.map((item) => (
-                        <div className="card comic-card bg-black" key={item.id}>
-                            <a href="#" className="text-decoration-none text-center">
-                                <img src={item.thumb} alt="" className='thumb' />
-                                <span className="comics-text text-white">{item.title}</span>
-                            </a>
-                        </div>
+                        <Card key={item.id} thumb={item.thumb} title={item.title} />
                     ))}
 
 
