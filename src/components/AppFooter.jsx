@@ -7,7 +7,7 @@ export default function AppFooter({dcComics, shop, dc, sites}) {
 
         <footer>
             <div className="container d-flex justify-content-between">
-                <div className="footerLink row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div className="footerLink row row-cols-2 row-cols-md-3 row-cols-lg-3">
                     <div className="col">
                         <h5 className='title'>DC COMICS</h5>
                         <ul>

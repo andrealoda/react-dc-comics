@@ -105,8 +105,6 @@ footer {
     .footerLink {
         color: white;
         padding: 2rem;
-        display: flex;
-        flex-wrap: wrap;
 
         ul {
             padding-left: 0;
