@@ -1,6 +1,8 @@
 import logoBg from '../assets/img/dc-logo-bg.png'
 
 
+
+
 export default function AppFooter({dcComics, shop, dc, sites}) {
 
     return (
